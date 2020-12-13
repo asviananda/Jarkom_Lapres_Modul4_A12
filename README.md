@@ -131,49 +131,49 @@ xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daem
 ```
 Kemudian di bash, dan lakukan login pada setiap UML dengan ```username : root``` dan ```password : praktikum```. Lalu pada setiap router, uncomment bagian ```net.ipv4.ip_forward=1``` di ```/etc/sysctl.conf``` agar dapat melakukan proses routing. Selanjutnya, ```/etc/network/interfaces``` diedit menjadi seperti dibawah ini :
 
-### ROUTER ###
+## ROUTER ##
 
-## SURABAYA ##
+### SURABAYA ###
 
-## PASURUAN ##
+### PASURUAN ###
 
-## PROBOLINGGO ##
+### PROBOLINGGO ###
 
-## BATU ##
+### BATU ###
 
-## MADIUN ##
+### MADIUN ###
 
-## KEDIRI ##
+### KEDIRI ###
 
-## BLITAR ##
+### BLITAR ###
 
-### SERVER ###
+## SERVER ##
 
-## MOJOKERTO ##
+### MOJOKERTO ###
 
-## MALANG ##
+### MALANG ###
 
-### KLIEN ###
+## KLIEN ##
 
-## SAMPANG ##
+### SAMPANG ###
 
-## SIDOARJO ##
+### SIDOARJO ###
 
-## BANYUWANGI ##
+### BANYUWANGI ###
 
-## JEMBER ##
+### JEMBER ###
 
-## BONDOWOSO ##
+### BONDOWOSO ###
 
-## JOMBANG ##
+### JOMBANG ###
 
-## BOJONEGORO ##
+### BOJONEGORO ###
 
-## NGANJUK ##
+### NGANJUK ###
 
-## TULUNGAGUNG ##
+### TULUNGAGUNG ###
 
-## LUMAJANG ##
+### LUMAJANG ###
 
 Kemudian setelah selesai, lakukan ```service networking restart``` dan pada router, lakukan ```iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16```.
 
