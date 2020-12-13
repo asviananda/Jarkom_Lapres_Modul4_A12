@@ -61,6 +61,54 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
+4.Routing pada setiap router. Routing dapat dilakukan pada menu Config > Routing > Static pada device Router. Lalu isi Static Routes dengan subnet tujuan yang ingin ditambahkan di dalam rute
+
+* Surabaya 
+'''192.168.0.8/30 via 192.168.0.14
+192.168.0.128/25 via 192.168.0.14
+192.168.2.0/23 via 192.168.0.6
+192.168.0.16/28 via 192.168.0.6
+192.168.12.0/22 via 192.168.0.6
+192.168.0.0/30 via 192.168.0.6
+192.168.1.0/24 via 192.168.0.6
+192.168.24.0/22 via 192.168.0.6
+192.168.8.0/22 via 192.168.0.14
+192.168.16.0/21 via 192.168.0.14
+10.151.73.108/30 via 192.168.0.6'''
+
+* Pasuruan 
+
+'''192.168.0.128/25 via 192.168.0.10
+192.168.16.0/21 via 192.168.0.10
+0.0.0.0/0 via 192.168.0.13'''
+
+* Probolinggo
+
+'''0.0.0.0/0 via 192.168.0.9'''
+
+* Batu
+
+'''0.0.0.0/0 via 192.168.0.5
+192.168.0.16/28 via 192.168.2.2
+192.168.1.0/24 via 192.168.0.2
+192.168.24.0/22 via 192.168.0.2
+10.151.73.108/30 via 192.168.0.2
+10.151.73.104/30 via 192.168.0.5'''
+
+* Madiun 
+
+'''0.0.0.0/0 via 192.168.2.1'''
+
+* Kediri
+
+'''192.168.24.0/22 via 192.168.1.2
+0.0.0.0/0 via 192.168.0.1'''
+
+
+* Blitar 
+
+'''0.0.0.0/0 via 192.168.1.1'''
+
 # Perhitungan CIDR
 
 Pertama, lakukan pembagian subnet pada topologi dengan cara menyatukan client&router yang berdekatan dan berada pada level yang sama. Berikut hasil dari pembagian subnet :
