@@ -61,68 +61,120 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
-* #### SAMPANG (Sebagai Klien)
-
--IP pada Interface SAMPANG yang mengarah ke SURABAYA
-![surabaya](https://user-images.githubusercontent.com/48914928/102009355-83fa2000-3d69-11eb-965d-057c23e836c6.PNG)
-
-* #### MOJOKERTO (Sebagai Server)
-
--IP pada Interface MOJOKERTO yang mengarah ke SURABAYA
-
-
-* #### PASURUAN (Sebagai Router)
-
--IP pada Interface PASURUAN yang mengarah ke SURABAYA
-![surabaya](https://user-images.githubusercontent.com/48914928/102009384-a5f3a280-3d69-11eb-8508-ea40681619eb.PNG)
-
--IP pada Interface PASURUAN yang mengarah ke PROBOLINGGO
-![Probolinggo](https://user-images.githubusercontent.com/48914928/102009379-a429df00-3d69-11eb-82bb-f9dbfa658ef2.PNG)
-
--IP pada Interface PASURUAN yang mengarah ke SIDOARJO
-![sidoarjo](https://user-images.githubusercontent.com/48914928/102009381-a5f3a280-3d69-11eb-9f88-2b3d19f7350f.PNG)
-
-* #### PROBOLINGGO (Sebagai Router)
-
--IP pada Interface PROBOLINGGO yang mengarah ke PASURUAN
-![pasuruan](https://user-images.githubusercontent.com/48914928/102009500-5792d380-3d6a-11eb-88a1-1c52cb53851c.PNG)
-
-
-
--IP pada Interface PROBOLINGGO yang mengarah ke JEMBER dan BANYUWANGI
-![jember banyuwngi](https://user-images.githubusercontent.com/48914928/102009499-5792d380-3d6a-11eb-9a3f-0b244fa31885.PNG)
-
--IP pada Interface PROBOLINGGO yang mengarah ke BONDOWOSO
-![bondowoso](https://user-images.githubusercontent.com/48914928/102009496-5661a680-3d6a-11eb-922c-b4ea5433ae97.PNG)
-
-
-* #### JEMBER (Sebagai Klien)
-
--IP pada Interface JEMBER yang mengarah ke PROBOLINGGO
-
-![probolinggo](https://user-images.githubusercontent.com/48914928/102009533-96288e00-3d6a-11eb-8c70-d81c308158fe.PNG)
-
-* #### BANYUWANGI (Sebagai Klien)
-
--IP pada Interface BANYUWANGI yang mengarah ke PROBOLINGGO
-![probolinggo](https://user-images.githubusercontent.com/48914928/102009542-a476aa00-3d6a-11eb-86b7-be71d6aea87b.PNG)
-
-* #### BONDOWOSO (Sebagai Klien)
-
--IP pada Interface BONDOWOSO yang mengarah ke PROBOLINGGO
-
-![probolinggo](https://user-images.githubusercontent.com/48914928/102009547-b1939900-3d6a-11eb-8dc6-eecb70d952e8.PNG)
-
-
-
 # Perhitungan CIDR
 
 Pertama, lakukan pembagian subnet pada topologi dengan cara menyatukan client&router yang berdekatan dan berada pada level yang sama. Berikut hasil dari pembagian subnet :
 
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p>
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009383-a5f3a280-3d69-11eb-8336-9a5cb5f99894.png"></p>
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009409-d1768d00-3d69-11eb-9324-1ca42b2ffef8.png"></p>
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009424-e94e1100-3d69-11eb-8624-1c16c8c307ce.png"></p>
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p>
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p>
-<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p
+![Pt1](https://user-images.githubusercontent.com/62512432/102009490-5366b600-3d6a-11eb-92b6-166994b4bce4.png)
+![Pt2](https://user-images.githubusercontent.com/62512432/102009383-a5f3a280-3d69-11eb-8336-9a5cb5f99894.png)
+![Pt3](https://user-images.githubusercontent.com/62512432/102009409-d1768d00-3d69-11eb-9324-1ca42b2ffef8.png)
+![Pt4](https://user-images.githubusercontent.com/62512432/102009424-e94e1100-3d69-11eb-8624-1c16c8c307ce.png)
+![Pt5](https://user-images.githubusercontent.com/62512432/102009468-2ca87f80-3d6a-11eb-8381-9f1d16be16ab.png)
+![Pt6](https://user-images.githubusercontent.com/62512432/102009481-45189a00-3d6a-11eb-9786-575280be6dae.png)
+![Pt7](https://user-images.githubusercontent.com/62512432/102009519-785b2900-3d6a-11eb-85d8-f216aa00f84d.png)
+
+Lalu dari hasil pengelompokan seperti diatas, didapatkan hasil tree sebagai berikut :
+
+![Tree CIDR](https://user-images.githubusercontent.com/62512432/102009536-9a54ab80-3d6a-11eb-9cf5-f5a242497f34.png)
+
+Dari hasil tree tersebut, didapat IP setiap subnet, dan dilakukan perhitungan IP lebih lanjut untuk mendapatkan netmask dan broadcast id seperti berikut :
+
+![Hasil IP](https://user-images.githubusercontent.com/62512432/102009566-dbe55680-3d6a-11eb-9285-f63103c55672.png)
+
+Setelah didapatkan hasil diatas, dapat dilakukan proses routing pada UML.
+
+# Routing CIDR
+
+Pertama, buat topologi pada ```topocidr.sh``` sebagai berikut :
+```
+# Switch
+uml_switch -unix switch0 > /dev/null < /dev/null &
+uml_switch -unix switch1 > /dev/null < /dev/null &
+uml_switch -unix switch2 > /dev/null < /dev/null &
+uml_switch -unix switch3 > /dev/null < /dev/null &
+uml_switch -unix switch4 > /dev/null < /dev/null &
+uml_switch -unix switch5 > /dev/null < /dev/null &
+uml_switch -unix switch6 > /dev/null < /dev/null &
+uml_switch -unix switch7 > /dev/null < /dev/null &
+uml_switch -unix switch8 > /dev/null < /dev/null &
+uml_switch -unix switch9 > /dev/null < /dev/null &
+uml_switch -unix switch10 > /dev/null < /dev/null &
+uml_switch -unix switch11 > /dev/null < /dev/null &
+uml_switch -unix switch12 > /dev/null < /dev/null &
+uml_switch -unix switch13 > /dev/null < /dev/null &
+uml_switch -unix switch14 > /dev/null < /dev/null &
+
+# Router
+xterm -T SURABAYA -e linux ubd0=SURABAYA,jarkom umid=SURABAYA eth0=tuntap,,,10.151.74.41 eth1=daemon,,,switch1 eth2=daemon,,,switch2 eth3=daemon,,,switch7 eth4=daemon,,,switch0 mem=64M &
+xterm -T PASURUAN -e linux ubd0=PASURUAN,jarkom umid=PASURUAN eth0=daemon,,,switch2 eth1=daemon,,,switch3 eth2=daemon,,,switch8 mem=64M &
+xterm -T PROBOLINGGO -e linux ubd0=PROBOLINGGO,jarkom umid=PROBOLINGGO eth0=daemon,,,switch3 eth1=daemon,,,switch4 eth2=daemon,,,switch9 mem=64M &
+xterm -T BATU -e linux ubd0=BATU,jarkom umid=BATU eth0=daemon,,,switch7 eth1=daemon,,,switch11 eth2=daemon,,,switch10 eth3=daemon,,,switch6 mem=64M &
+xterm -T MADIUN -e linux ubd0=MADIUN,jarkom umid=MADIUN eth0=daemon,,,switch6 eth1=daemon,,,switch5 mem=64M &
+xterm -T KEDIRI -e linux ubd0=KEDIRI,jarkom umid=KEDIRI eth0=daemon,,,switch11 eth1=daemon,,,switch14 eth2=daemon,,,switch12 mem=64M &
+xterm -T BLITAR -e linux ubd0=BLITAR,jarkom umid=BLITAR eth0=daemon,,,switch14 eth1=daemon,,,switch13 mem=64M &
+
+# Server
+xterm -T MOJOKERTO -e linux ubd0=MOJOKERTO,jarkom umid=MOJOKERTO eth0=daemon,,,switch0 mem=64M &
+xterm -T MALANG -e linux ubd0=MALANG,jarkom umid=MALANG eth0=daemon,,,switch12 mem=64M &
+
+# Klien
+xterm -T SAMPANG -e linux ubd0=SAMPANG,jarkom umid=SAMPANG eth0=daemon,,,switch1 mem=64M &
+xterm -T BONDOWOSO -e linux ubd0=BONDOWOSO,jarkom umid=BONDOWOSO eth0=daemon,,,switch4 mem=64M &
+xterm -T JEMBER -e linux ubd0=JEMBER,jarkom umid=JEMBER eth0=daemon,,,switch9 mem=64M &
+xterm -T BANYUWANGI -e linux ubd0=BANYUWANGI,jarkom umid=BANYUWANGI eth0=daemon,,,switch9 mem=64M &
+xterm -T SIDOARJO -e linux ubd0=SIDOARJO,jarkom umid=SIDOARJO eth0=daemon,,,switch8 mem=64M &
+xterm -T JOMBANG -e linux ubd0=JOMBANG,jarkom umid=JOMBANG eth0=daemon,,,switch6 mem=64M &
+xterm -T BOJONEGORO -e linux ubd0=BOJONEGORO,jarkom umid=BOJONEGORO eth0=daemon,,,switch5 mem=64M &
+xterm -T NGANJUK -e linux ubd0=NGANJUK,jarkom umid=NGANJUK eth0=daemon,,,switch10 mem=64M &
+xterm -T LUMAJANG -e linux ubd0=LUMAJANG,jarkom umid=LUMAJANG eth0=daemon,,,switch14 mem=64M &
+xterm -T TULUNGAGUNG -e linux ubd0=TULUNGAGUNG,jarkom umid=TULUNGAGUNG eth0=daemon,,,switch13 mem=64M &
+```
+Kemudian di bash, dan lakukan login pada setiap UML dengan ```username : root``` dan ```password : praktikum```. Lalu pada setiap router, uncomment bagian ```net.ipv4.ip_forward=1``` di ```/etc/sysctl.conf``` agar dapat melakukan proses routing. Selanjutnya, ```/etc/network/interfaces``` diedit menjadi seperti dibawah ini :
+
+### ROUTER ###
+
+## SURABAYA ##
+
+## PASURUAN ##
+
+## PROBOLINGGO ##
+
+## BATU ##
+
+## MADIUN ##
+
+## KEDIRI ##
+
+## BLITAR ##
+
+### SERVER ###
+
+## MOJOKERTO ##
+
+## MALANG ##
+
+### KLIEN ###
+
+## SAMPANG ##
+
+## SIDOARJO ##
+
+## BANYUWANGI ##
+
+## JEMBER ##
+
+## BONDOWOSO ##
+
+## JOMBANG ##
+
+## BOJONEGORO ##
+
+## NGANJUK ##
+
+## TULUNGAGUNG ##
+
+## LUMAJANG ##
+
+Kemudian setelah selesai, lakukan ```service networking restart``` dan pada router, lakukan ```iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16```.
+
+
