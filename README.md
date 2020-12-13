@@ -40,24 +40,24 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 * #### SURABAYA (Sebagai Router)
 
-*IP pada Interface SURABAYA yang mengarah ke CLOUD
+-IP pada Interface SURABAYA yang mengarah ke CLOUD
 
 ![cloud](https://user-images.githubusercontent.com/48914928/102008935-9d4d9d00-3d66-11eb-865d-5856e86757bc.PNG)
 
-*IP pada Interface SURABAYA yang mengarah ke MOJOKERTO
+-IP pada Interface SURABAYA yang mengarah ke MOJOKERTO
 
 
 ![mojokerto](https://user-images.githubusercontent.com/48914928/102008937-9de63380-3d66-11eb-972c-e0fe57a29569.PNG)
 
-*IP pada Interface SURABAYA yang mengarah ke PASURUAN
+-IP pada Interface SURABAYA yang mengarah ke PASURUAN
 
 ![pasuruan](https://user-images.githubusercontent.com/48914928/102008938-9e7eca00-3d66-11eb-8993-b00ab799c507.PNG)
 
-*IP pada Interface SURABAYA yang mengarah ke SAMPANG
+-IP pada Interface SURABAYA yang mengarah ke SAMPANG
 
 ![sampang](https://user-images.githubusercontent.com/48914928/102008940-9e7eca00-3d66-11eb-859a-e4a6097df56a.PNG)
 
-*IP pada Interface SURABAYA yang mengarah ke BATU
+-IP pada Interface SURABAYA yang mengarah ke BATU
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
