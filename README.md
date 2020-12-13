@@ -13,6 +13,7 @@ Topologi tersebut dilakukan perhitungan pembagian subnet dengan menggunakan meto
 * VLSM (Variable Length Subnet Masking) di Cisco Packet Tracer
 * CIDR (Clasless Inter Domain Routing) di Uml
 
+# Perhitungan VLSM
 Melakukan pembagian subnet terhadap topologi yang ada
 
 ![InkedSoal Shift Modul 4_LI](https://user-images.githubusercontent.com/48914928/102008369-64132e00-3d62-11eb-80c8-6a0bb5f35a37.jpg)
