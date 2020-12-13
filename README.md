@@ -390,30 +390,72 @@ Kemudian di bash, dan lakukan login pada setiap UML dengan ```username : root```
 
 **MOJOKERTO**
 
+![mojo](https://user-images.githubusercontent.com/62512432/102012046-be1fed80-3d7a-11eb-99c7-3eb5d21a68d6.png)
+
 **MALANG**
+
+![malang](https://user-images.githubusercontent.com/62512432/102012065-e1e33380-3d7a-11eb-8ece-69c28e97f3d7.png)
 
 ## KLIEN ##
 
 **SAMPANG**
 
+![sampang](https://user-images.githubusercontent.com/62512432/102012128-1d7dfd80-3d7b-11eb-8bb3-b1591961b15b.png)
+
 **SIDOARJO**
+
+![sidoarjo](https://user-images.githubusercontent.com/62512432/102012168-66ce4d00-3d7b-11eb-8cda-6ca46509e4b5.png)
 
 **BANYUWANGI**
 
+![banyu](https://user-images.githubusercontent.com/62512432/102012213-a5fc9e00-3d7b-11eb-9c26-3aa05dd22d6f.png)
+
 **JEMBER**
+
+![jember](https://user-images.githubusercontent.com/62512432/102012232-c2003f80-3d7b-11eb-9247-82566eb7816b.png)
 
 **BONDOWOSO**
 
+![bndws](https://user-images.githubusercontent.com/62512432/102012256-e5c38580-3d7b-11eb-8fe4-f63916ef8702.png)
+
 **JOMBANG**
+
+![jombang](https://user-images.githubusercontent.com/62512432/102012288-1a374180-3d7c-11eb-8419-544626cfd0b3.png)
 
 **BOJONEGORO**
 
+![bjngr](https://user-images.githubusercontent.com/62512432/102012307-3a670080-3d7c-11eb-92fa-b96fe7dc283c.png)
+
 **NGANJUK**
+
+![nganjuk](https://user-images.githubusercontent.com/62512432/102012355-739f7080-3d7c-11eb-9f1c-0a10e381600d.png)
 
 **TULUNGAGUNG**
 
+![tlgag](https://user-images.githubusercontent.com/62512432/102012390-8e71e500-3d7c-11eb-8760-b146ae8208a3.png)
+
 **LUMAJANG**
+
+![lmj](https://user-images.githubusercontent.com/62512432/102012406-ae090d80-3d7c-11eb-8d51-9cccbb23cb44.png)
 
 Kemudian setelah selesai, lakukan ```service networking restart``` dan pada router, lakukan ```iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16```.
 
+Setelah selesai pada interface UML, lanjut ke bagian routing. Router yang melakukan proses routing disini adalah **SURABAYA, PASURUAN, BATU, DAN KEDIRI**. Untuk meletakkan IP yang mengarah pada server maupun client, dibuat file ```route.sh``` pada router-router diatas. Isi dari ```route.sh``` adalah sebagai berikut :
 
+**SURABAYA (E1, D1, MALANG)**
+
+![rtsby](https://user-images.githubusercontent.com/62512432/102012459-21128400-3d7d-11eb-9be4-7fc1a827783b.png)
+
+**PASURUAN (B2)**
+
+![rtpsurn](https://user-images.githubusercontent.com/62512432/102012492-59b25d80-3d7d-11eb-988a-405c4cc81ca6.png)
+
+**BATU (A6, B1, MALANG)**
+
+![rtbt](https://user-images.githubusercontent.com/62512432/102012506-7058b480-3d7d-11eb-84d2-c0d391f11c86.png)
+
+**KEDIRI (A1)**
+
+![rtkdr](https://user-images.githubusercontent.com/62512432/102012562-c9c0e380-3d7d-11eb-8c7e-f4fe54a2de0e.png)
+
+Untuk mengetahui apakah routing berhasil, bisa dilakukan pengecekan dengan cara melakukan ping situs/IP tertentu. Apabila ping dapat berjalan, maka proses routing berhasil.
