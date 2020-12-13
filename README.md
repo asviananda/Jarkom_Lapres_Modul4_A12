@@ -19,10 +19,8 @@ Melakukan pembagian subnet terhadap topologi yang ada
 
 Dari hasil pembagian subnet, kita mendapatkan sejumlah 13 subnet dan 2 subnet untuk server.
 
+1. Hasil Perhitungang VLSM dperoleh jumlah ip, netmask masing-masing ip dan ip total 
 
-
-
-1. Hasil Perhitungang VLSM
 ![ip](https://user-images.githubusercontent.com/48914928/102008430-f582a000-3d62-11eb-886e-61873e04bb74.PNG)
 
 Jadi, kita dapat menggunakan netmask /19 untuk memberikan pengalamatan IP pada 13 subnet
