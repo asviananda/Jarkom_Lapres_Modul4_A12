@@ -134,6 +134,7 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 * #### MALANG (Sebagai Server)
 
 -IP pada Interface MALANG yang mengarah ke KEDIRI
+
 ![kediri](https://user-images.githubusercontent.com/48914928/102010305-dd654d80-3d6f-11eb-8b99-2c3e79a5cdea.PNG)
 
 
