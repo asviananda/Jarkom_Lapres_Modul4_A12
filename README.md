@@ -249,7 +249,8 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 * Pasuruan 
 
-```192.168.0.128/25 via 192.168.0.10
+```
+192.168.0.128/25 via 192.168.0.10
 192.168.16.0/21 via 192.168.0.10
 0.0.0.0/0 via 192.168.0.13
 ```
@@ -279,7 +280,8 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 * Kediri
 
-```192.168.24.0/22 via 192.168.1.2
+```
+192.168.24.0/22 via 192.168.1.2
 0.0.0.0/0 via 192.168.0.1
 ```
 
