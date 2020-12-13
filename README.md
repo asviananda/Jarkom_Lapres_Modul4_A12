@@ -61,111 +61,6 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
-
-
-
-* ####BATU (Sebagai Router)
-
--IP pada Interface BATU yang mengarah ke SURABAYA
-
-![surabaya](https://user-images.githubusercontent.com/48914928/102010202-29fc5900-3d6f-11eb-838c-9be2635ef3ac.PNG)
-
-
--IP pada Interface BATU yang mengarah ke KEDIRI
-
-![kediri](https://user-images.githubusercontent.com/48914928/102010199-2963c280-3d6f-11eb-9e6f-980b891416cb.PNG)
-
--IP pada Interface BATU yang mengarah ke JOMBANG dan MADIUN
-
-![jombang madiun](https://user-images.githubusercontent.com/48914928/102010198-2799ff00-3d6f-11eb-88f8-e349a05318e9.PNG)
-
--IP pada Interface BATU yang mengarah ke NGANJUK
-
-![ngajnjuk](https://user-images.githubusercontent.com/48914928/102010201-29fc5900-3d6f-11eb-95e9-6564636dffa8.PNG)
-
-
-* #### JOMBANG (Sebagai Klien)
-
--IP pada Interface JOMBANG yang mengarah ke BATU dan MADIUN
-
-![BATU dan MADIUN](https://user-images.githubusercontent.com/48914928/102010238-6a5bd700-3d6f-11eb-87e7-422f40c0ba1b.PNG)
-
-* #### MADIUN (Sebagai Router)
-
--IP pada Interface MADIUN yang mengarah ke BATU dan JOMBANG
-
-![jombang](https://user-images.githubusercontent.com/48914928/102010249-7cd61080-3d6f-11eb-914d-2572d10603e8.PNG)
-
--IP pada Interface MADIUN yang mengarah ke BOJONEGORO
-
-![bojonegoro](https://user-images.githubusercontent.com/48914928/102010248-7b0c4d00-3d6f-11eb-907c-3198f58052b4.PNG)
-
-
-* #### BOJONEGORO (Sebagai Klien)
-
--IP pada Interface BOJONEGORO yang mengarah ke MADIUN
-
-![madiun](https://user-images.githubusercontent.com/48914928/102010257-924b3a80-3d6f-11eb-9910-3fb997d2ba81.PNG)
-
-* #### NGANJUK (Sebagai Klien)
-
--IP pada Interface NGANJUK yang mengarah ke BATU
-
-![batu](https://user-images.githubusercontent.com/48914928/102010263-a2631a00-3d6f-11eb-89f8-eb95cf9202d8.PNG)
-
-
-
-* #### KEDIRI (Sebagai Router)
-
--IP pada Interface KEDIRI yang mengarah ke BATU
-
-![batu](https://user-images.githubusercontent.com/48914928/102010284-c6bef680-3d6f-11eb-849c-6670301ca789.PNG)
-
--IP pada Interface KEDIRI yang mengarah ke MALANG
-
-![malang](https://user-images.githubusercontent.com/48914928/102010287-c888ba00-3d6f-11eb-8a09-2c99c1b1c7e3.PNG)
-
--IP pada Interface KEDIRI yang mengarah ke BLITAR dan LUMAJANG
-
-![BLITAR dan LUMAJANG](https://user-images.githubusercontent.com/48914928/102010286-c7f02380-3d6f-11eb-8c79-ae7e4aa69234.PNG)
-
-
-
-* #### MALANG (Sebagai Server)
-
--IP pada Interface MALANG yang mengarah ke KEDIRI
-
-![kediri](https://user-images.githubusercontent.com/48914928/102010305-dd654d80-3d6f-11eb-8b99-2c3e79a5cdea.PNG)
-
-
-
-* #### BLITAR (Sebagai Router)
-
--IP pada Interface BLITAR yang mengarah ke KEDIRI dan LUMAJANG
-
-![lumajang dan kediri](https://user-images.githubusercontent.com/48914928/102010317-f3730e00-3d6f-11eb-8565-fadb2d262d34.PNG)
-
--IP pada Interface BLITAR yang mengarah ke TULUNGAGUNG
-
-![TULUNGAGUNG](https://user-images.githubusercontent.com/48914928/102010319-f4a43b00-3d6f-11eb-963d-c3173fe3bc34.PNG)
-
-
-
-* #### LUMAJANG (Sebagai Klien)
-
--IP pada Interface LUMAJANG yang mengarah ke KEDIRI dan BLITAR
-
-![kediri dan blitar](https://user-images.githubusercontent.com/48914928/102010334-084fa180-3d70-11eb-800a-01860e260bd3.PNG)
-
-
-
-* #### TULUNGAGUNG (Sebagai Klien)
-
--IP pada Interface TULUNGAGUNG yang mengarah ke BLITAR
-
-![blitar](https://user-images.githubusercontent.com/48914928/102010356-2917f700-3d70-11eb-86f6-b8a36696c592.PNG)
-
-
 # Perhitungan CIDR
 
 Pertama, lakukan pembagian subnet pada topologi dengan cara menyatukan client&router yang berdekatan dan berada pada level yang sama. Berikut hasil dari pembagian subnet :
@@ -239,18 +134,25 @@ Kemudian di bash, dan lakukan login pada setiap UML dengan ```username : root```
 ## ROUTER ##
 
 **SURABAYA**
+![sby](https://user-images.githubusercontent.com/62512432/102010310-e5bd8880-3d6f-11eb-8a92-50f06db7096f.png)
 
 **PASURUAN**
+![pasuruan](https://user-images.githubusercontent.com/62512432/102010343-1a314480-3d70-11eb-9163-eb203a8b201d.png)
 
 **PROBOLINGGO**
+![probo](https://user-images.githubusercontent.com/62512432/102010378-464cc580-3d70-11eb-9190-92e181d6dac3.png)
 
 **BATU**
+![batu](https://user-images.githubusercontent.com/62512432/102010436-97f55000-3d70-11eb-85a3-f0d3687c78bc.png)
 
 **MADIUN**
+![madiun](https://user-images.githubusercontent.com/62512432/102010462-c3783a80-3d70-11eb-91d9-32e737512ce3.png)
 
 **KEDIRI**
+![kediri](https://user-images.githubusercontent.com/62512432/102010491-ef93bb80-3d70-11eb-8f85-0b97144354d2.png)
 
 **BLITAR**
+![blitar](https://user-images.githubusercontent.com/62512432/102010516-1b16a600-3d71-11eb-87ad-5ca9253ab961.png)
 
 ## SERVER ##
 
