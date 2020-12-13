@@ -3,3 +3,5 @@
 ##### Oleh :
 * Achmad Sofyan Pratama 
 * OKtarizka Asviananda Nursanty
+
+Penyelesain Subnetting dan Routing 
