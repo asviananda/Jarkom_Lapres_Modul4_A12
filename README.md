@@ -1,8 +1,8 @@
 # Jarkom_Lapres_Modul4_A12
 
 ##### Oleh :
-* Achmad Sofyan Pratama 
-* OKtarizka Asviananda Nursanty
+- Achmad Sofyan Pratama (05111840000061)
+- Oktarizka Asviananda Nursanty (05111840000156)
 
 ### Penyelesain Subnetting dan Routing 
 
@@ -61,3 +61,14 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
+# Perhitungan CIDR
+
+Pertama, lakukan pembagian subnet pada topologi dengan cara menyatukan client&router yang berdekatan dan berada pada level yang sama. Berikut hasil dari pembagian subnet :
+
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p>
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009383-a5f3a280-3d69-11eb-8336-9a5cb5f99894.png"></p>
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009409-d1768d00-3d69-11eb-9324-1ca42b2ffef8.png"></p>
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009424-e94e1100-3d69-11eb-8624-1c16c8c307ce.png"></p>
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p>
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p>
+<p align ="center"><img width="500" src="https://user-images.githubusercontent.com/62512432/102009364-8eb4b500-3d69-11eb-92b7-8f0cfdb5b57d.png"></p
