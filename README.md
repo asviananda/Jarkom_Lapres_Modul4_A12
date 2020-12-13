@@ -86,7 +86,9 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 * Probolinggo
 
-```0.0.0.0/0 via 192.168.0.9
+```
+0.0.0.0/0 via 192.168.0.9
+
 ```
 
 * Batu
@@ -101,7 +103,8 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 * Madiun 
 
-```0.0.0.0/0 via 192.168.2.1
+```
+0.0.0.0/0 via 192.168.2.1
 ```
 
 * Kediri
@@ -113,7 +116,9 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 * Blitar 
 
-```0.0.0.0/0 via 192.168.1.1
+```
+0.0.0.0/0 via 192.168.1.1
+
 ```
 
 # Perhitungan CIDR
