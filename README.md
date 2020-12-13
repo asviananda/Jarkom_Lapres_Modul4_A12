@@ -19,6 +19,9 @@ Melakukan pembagian subnet terhadap topologi yang ada
 
 Dari hasil pembagian subnet, kita mendapatkan sejumlah 13 subnet dan 2 subnet untuk server.
 
+
+
+
 1. Hasil Perhitungang VLSM
 ![ip](https://user-images.githubusercontent.com/48914928/102008430-f582a000-3d62-11eb-886e-61873e04bb74.PNG)
 
