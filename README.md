@@ -133,47 +133,47 @@ Kemudian di bash, dan lakukan login pada setiap UML dengan ```username : root```
 
 ## ROUTER ##
 
-### SURABAYA ###
+**SURABAYA**
 
-### PASURUAN ###
+**PASURUAN**
 
-### PROBOLINGGO ###
+**PROBOLINGGO**
 
-### BATU ###
+**BATU**
 
-### MADIUN ###
+**MADIUN**
 
-### KEDIRI ###
+**KEDIRI**
 
-### BLITAR ###
+**BLITAR**
 
 ## SERVER ##
 
-### MOJOKERTO ###
+**MOJOKERTO**
 
-### MALANG ###
+**MALANG**
 
 ## KLIEN ##
 
-### SAMPANG ###
+**SAMPANG**
 
-### SIDOARJO ###
+**SIDOARJO**
 
-### BANYUWANGI ###
+**BANYUWANGI**
 
-### JEMBER ###
+**JEMBER**
 
-### BONDOWOSO ###
+**BONDOWOSO**
 
-### JOMBANG ###
+**JOMBANG**
 
-### BOJONEGORO ###
+**BOJONEGORO**
 
-### NGANJUK ###
+**NGANJUK**
 
-### TULUNGAGUNG ###
+**TULUNGAGUNG**
 
-### LUMAJANG ###
+**LUMAJANG**
 
 Kemudian setelah selesai, lakukan ```service networking restart``` dan pada router, lakukan ```iptables –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16```.
 
