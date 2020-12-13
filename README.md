@@ -61,6 +61,72 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
+* ####SAMPANG (Sebagai Klien)
+
+-IP pada Interface SAMPANG yang mengarah ke SURABAYA
+
+![surabaya](https://user-images.githubusercontent.com/48914928/102011395-4b147800-3d76-11eb-8496-89329eb91a33.PNG)
+
+* #### MOJOKERTO (Sebagai Server)
+
+-IP pada Interface MOJOKERTO yang mengarah ke SURABAYA
+
+![surabaya](https://user-images.githubusercontent.com/48914928/102011409-6a130a00-3d76-11eb-9488-5ab47ac3920d.PNG)
+
+* #### PASURUAN (Sebagai Router)
+
+-IP pada Interface PASURUAN yang mengarah ke SURABAYA
+
+![surabaya](https://user-images.githubusercontent.com/48914928/102011418-80b96100-3d76-11eb-9687-dbaeca3652d2.PNG)
+
+
+-IP pada Interface PASURUAN yang mengarah ke PROBOLINGGO
+
+![Probolinggo](https://user-images.githubusercontent.com/48914928/102011415-7eef9d80-3d76-11eb-8be2-0b15d041025c.PNG)
+
+
+-IP pada Interface PASURUAN yang mengarah ke SIDOARJO
+
+![sidoarjo](https://user-images.githubusercontent.com/48914928/102011417-8020ca80-3d76-11eb-974f-cbbdcbe2b7bc.PNG)
+
+
+* #### PROBOLINGGO (Sebagai Router)
+
+-IP pada Interface PROBOLINGGO yang mengarah ke PASURUAN
+
+![pasuruan](https://user-images.githubusercontent.com/48914928/102011443-a8102e00-3d76-11eb-881b-22fa15755f2e.PNG)
+
+
+-IP pada Interface PROBOLINGGO yang mengarah ke JEMBER dan BANYUWANGI
+
+![jember banyuwngi](https://user-images.githubusercontent.com/48914928/102011442-a7779780-3d76-11eb-845f-7a80fec59221.PNG)
+
+-IP pada Interface PROBOLINGGO yang mengarah ke BONDOWOSO
+
+![bondowoso](https://user-images.githubusercontent.com/48914928/102011440-a6466a80-3d76-11eb-9f87-9172dcfa90ba.PNG)
+
+* #### JEMBER (Sebagai Klien)
+
+-IP pada Interface JEMBER yang mengarah ke PROBOLINGGO
+
+![probolinggo](https://user-images.githubusercontent.com/48914928/102011462-ddb51700-3d76-11eb-8d97-4d8c1a80804d.PNG)
+
+
+* #### BANYUWANGI (Sebagai Klien)
+
+-IP pada Interface BANYUWANGI yang mengarah ke PROBOLINGGO
+
+![probolinggo](https://user-images.githubusercontent.com/48914928/102011466-ead20600-3d76-11eb-91c9-6e3977141961.PNG)
+
+
+* #### BONDOWOSO (Sebagai Klien)
+
+-IP pada Interface BONDOWOSO yang mengarah ke PROBOLINGGO
+
+![probolinggo](https://user-images.githubusercontent.com/48914928/102011473-f9202200-3d76-11eb-867d-86523e2e8825.PNG)
+
+
+
 4.Routing pada setiap router. Routing dapat dilakukan pada menu Config > Routing > Static pada device Router. Lalu isi Static Routes dengan subnet tujuan yang ingin ditambahkan di dalam rute
 
 * Surabaya 
