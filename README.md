@@ -61,6 +61,60 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 ![batu](https://user-images.githubusercontent.com/48914928/102008931-9c1c7000-3d66-11eb-9d45-c5b1fc2f6cb4.PNG)
 
+* #### SAMPANG (Sebagai Klien)
+
+-IP pada Interface SAMPANG yang mengarah ke SURABAYA
+![surabaya](https://user-images.githubusercontent.com/48914928/102009355-83fa2000-3d69-11eb-965d-057c23e836c6.PNG)
+
+* #### MOJOKERTO (Sebagai Server)
+
+-IP pada Interface MOJOKERTO yang mengarah ke SURABAYA
+
+
+* #### PASURUAN (Sebagai Router)
+
+-IP pada Interface PASURUAN yang mengarah ke SURABAYA
+![surabaya](https://user-images.githubusercontent.com/48914928/102009384-a5f3a280-3d69-11eb-8508-ea40681619eb.PNG)
+
+-IP pada Interface PASURUAN yang mengarah ke PROBOLINGGO
+![Probolinggo](https://user-images.githubusercontent.com/48914928/102009379-a429df00-3d69-11eb-82bb-f9dbfa658ef2.PNG)
+
+-IP pada Interface PASURUAN yang mengarah ke SIDOARJO
+![sidoarjo](https://user-images.githubusercontent.com/48914928/102009381-a5f3a280-3d69-11eb-9f88-2b3d19f7350f.PNG)
+
+* #### PROBOLINGGO (Sebagai Router)
+
+-IP pada Interface PROBOLINGGO yang mengarah ke PASURUAN
+![pasuruan](https://user-images.githubusercontent.com/48914928/102009500-5792d380-3d6a-11eb-88a1-1c52cb53851c.PNG)
+
+
+
+-IP pada Interface PROBOLINGGO yang mengarah ke JEMBER dan BANYUWANGI
+![jember banyuwngi](https://user-images.githubusercontent.com/48914928/102009499-5792d380-3d6a-11eb-9a3f-0b244fa31885.PNG)
+
+-IP pada Interface PROBOLINGGO yang mengarah ke BONDOWOSO
+![bondowoso](https://user-images.githubusercontent.com/48914928/102009496-5661a680-3d6a-11eb-922c-b4ea5433ae97.PNG)
+
+
+* #### JEMBER (Sebagai Klien)
+
+-IP pada Interface JEMBER yang mengarah ke PROBOLINGGO
+
+![probolinggo](https://user-images.githubusercontent.com/48914928/102009533-96288e00-3d6a-11eb-8c70-d81c308158fe.PNG)
+
+* #### BANYUWANGI (Sebagai Klien)
+
+-IP pada Interface BANYUWANGI yang mengarah ke PROBOLINGGO
+![probolinggo](https://user-images.githubusercontent.com/48914928/102009542-a476aa00-3d6a-11eb-86b7-be71d6aea87b.PNG)
+
+* #### BONDOWOSO (Sebagai Klien)
+
+-IP pada Interface BONDOWOSO yang mengarah ke PROBOLINGGO
+
+![probolinggo](https://user-images.githubusercontent.com/48914928/102009547-b1939900-3d6a-11eb-8dc6-eecb70d952e8.PNG)
+
+
+
 # Perhitungan CIDR
 
 Pertama, lakukan pembagian subnet pada topologi dengan cara menyatukan client&router yang berdekatan dan berada pada level yang sama. Berikut hasil dari pembagian subnet :
