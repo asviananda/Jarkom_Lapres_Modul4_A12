@@ -38,7 +38,7 @@ Sehingga, pembagian IP yang memungkinkan untuk topologi yang ada adalah sebagai 
 
 3. Setting IP untuk masing-masing interface yang ada di setiap device sesuai dengan pembagian subnet pada pohon VLSM. Interface dapat diatur pada menu Config > INTERFACE > “nama interface”
 
-* ##### SURABAYA (Sebagai Router)
+* #### SURABAYA (Sebagai Router)
 
 *IP pada Interface SURABAYA yang mengarah ke CLOUD
 
