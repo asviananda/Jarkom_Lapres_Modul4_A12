@@ -10,8 +10,8 @@
 
 Topologi tersebut dilakukan perhitungan pembagian subnet dengan menggunakan metode Classless yaitu:
 
-* VLSM (Variable Length Subnet Masking) di UML
-* CIDR (Clasless Inter Domain Routing) di Cisco Packet Tracer
+* VLSM (Variable Length Subnet Masking) di Cisco Packet Tracer
+* CIDR (Clasless Inter Domain Routing) di Uml
 
 Melakukan pembagian subnet terhadap topologi yang ada
 
